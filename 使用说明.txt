@@ -1,0 +1,11 @@
+set.ini是配置文件
+
+#set.ini是配置文件
+ScanType=tcp    #使用tcp扫描方式  若 支持syn扫描(2003机器)  可设置为 syn
+ScanPort=80,8080    #扫描开放端口  (初步扫描)  支持多端口  但是验证时只取第一个, //TODO 待完善
+WorkThread=5    #主要工作进程数目(IP扫描后, 同时进行几个ip结果文件的二次扫描)
+FuckThread=100  #二次扫描验证线程数
+FindUrl=http://example.com/ #扫描的网址
+FindStr=NiNJA,52ML,kangml,sbwml #初步扫描后 进行二次判断  判断结果是否包含此关键字, 逗号分割, 逻辑或
+
+其余配置忽略!!!!

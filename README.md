@@ -1,0 +1,1 @@
+# FUCK CDNip段写在ip.txt里面<br>然后参考[配置说明](使用说明.txt)<br>双击fuckcdn.exe，开始<del>抓鸡</del>扫源IP<img src="how_to_use.gif"/>
